@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketplaceArFa - Pi Network & ICP</title>
+    <!-- Pi Network SDK Script (Testnet) -->
+    <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 15px; background: #f4f4f9; }
+        .card { background: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        button { background: #673ab7; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>MarketplaceArFa</h2>
+    <div id="user-info" class="card">
+        <p>Status: <b id="status">Belum terhubung ke Pi Network</b></p>
+        <button id="btn-login" onclick="loginPi()">Authenticate dengan Pi Browser</button>
+    </div>
+
+    <h3>Daftar Produk</h3>
+    <div id="produk-list">
+        <!-- Produk dari Canister Motoko akan ditampilkan di sini -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
