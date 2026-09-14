@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "marketplace_backend": {
+      "main": "src/main.mo",
+      "type": "motoko"
+    },
+    "marketplace_frontend": {
+      "entrypoint": "src/frontend/index.html",
+      "source": [
+        "src/frontend"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
